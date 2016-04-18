@@ -1,0 +1,55 @@
+body,html,div{
+    padding:0px;
+    margin:0px;
+}
+.container{
+    width:auto;
+    height:auto;
+    position:relative;
+    margin:20px;
+}
+
+.fade {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    max-width: 1000px;
+    max-height: 1000px;
+    box-shadow: 0 0 20px rgba(0,0,0,1);
+    z-index: 1;
+    background: #fff;
+}
+
+.layer-wrap{
+    position:absolute;
+    display: block;
+    width:500px;
+    height: 300px;
+    margin-top:-150px;
+    margin-left: -250px;
+    left: 50%;
+    top:50%;
+    background-color: #ddd;
+}   
+
+.layer-head{
+    background-color: #3CB0E7;
+    position: relative;
+    height: 40px;
+    width: 100%;
+}
+
+.layer-head-title{
+    font-size: 20px;
+    padding:10px 0px 0px 10px;
+    color:#fff;
+    cursor: default;
+}
+.close{
+    position: absolute;
+    color:#fff;
+    font-size: 20px;
+    right:20px;
+    top:10px;
+    text-decoration:none;
+}
